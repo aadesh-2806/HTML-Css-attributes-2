@@ -1,0 +1,27 @@
+p {
+    color: black;
+    /*text-decoration: underline;*/
+    line-height: 2;
+    /*letter-spacing: 10px;*/
+}
+h1 {
+    color: darkblue;
+    background: greenyellow;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;  /*700*/
+    font-size: large;    
+    /*  cut word    --->   text-decoration: line-through;*/
+    text-decoration: black underline wavy;
+}
+h3 {
+    font-family: fantasy;
+}
+button {
+    color: white;
+    background-color: black;
+    border-color: rgb(18, 18, 65);
+}
+a {
+    text-decoration: none;  /*for no underline in link in this case but can be used anywhere*/
+}

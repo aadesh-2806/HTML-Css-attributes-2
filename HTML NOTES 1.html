@@ -1,0 +1,127 @@
+<!DOCTYPE html>                     <!--forms with diff type including label-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aadesh.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>heading</th>
+                <th>heading'</th>
+                <th>heading"</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1"</td>
+            <td>2"</td>
+            <td>3"</td>
+        </tr>
+    </table>
+
+<h3>hi practicing</h3>
+<p>
+    For data processing applications, large amount of data needs to be operated upon.
+Typical operations on these data from data processing viewpoint are: <br>
+1. Insert a new value/ record<br>
+2. Delete and existing value/ record <br>
+3. Search for a value/ record <br>
+4. Sort all values/ records <br>
+5. Traverse all values/ records <br>
+We need some ways to organize these data so that all above operations can be performed 
+efficiently. <a href="www.google.com">aadesh</a> organisation of data is studied in Data Structures. 
+For example: consider arrays having sorted values in ascending order.
+Insert operation: Algorithm:
+1. Search for the required location.
+2. Pull remaining values down by one place to make room for new element.
+3. Place the value there.
+Seems good. Consider population of India stored in an array. To insert a new element 130
+crore values to be searched and remaining values to be pulled down to create space for new
+element. Complexity O(N). Agreed. Also to pull down remaining values, code as follows
+required: (no. of elements=n; new element inserted at position: x)
+
+</p>
+    <h1>forms:</h1>
+    <button>label</button>
+    <button type="submit">label</button>                <!-- not including url-->
+    <form action="aadesh.html">
+        <input type="text" placeholder="enter username">
+        <input type="button"><br>
+        <input type="date"><br>
+        <input type="month"><br>
+        <input type="datetime"><br>
+        <input type="datetime-local"><br>
+        <input type="email"><br>
+        <input type="file"><br>
+        <input type="hidden"><br>
+        <input type="image"><br>
+        <input type="search"><br>
+        <input type="time"><br>
+        <input type="radio"><br>
+        <input type="password"><br>
+        <input type="number"><br>
+        <input type="checkbox"><br>
+        <input type="color"><br>
+        <input type="reset"><br>
+        <input type="submit" value="Click Me!!"><br>
+    </form>
+    <h1>labels:</h1>
+    <label for="ch">do you like cheese</label>
+    <input type="checkbox" name="che" id="ch" >         <!--name giving attribute che inwebsite url && id==for-->
+    
+    <h1>label' :</h1>
+    <label for="ch">do you like saucee</label>
+    <input type="checkbox" name="che" id="ch" checked>      <!--checked automatically visible-->
+
+    <form action="www.google.com">
+        <input type="text" name="u">        <!-- u=text  in url corres-->
+        <button>submit</button>
+    </form>
+    
+    <form action="www.google.com">
+        <label for="as">as</label>
+        <input type="radio" name="u" id="as">           <!--same name causes nly scq-->
+        <input type="radio" name="u" id="as" value="hsavh">         <!--dif for result url !name but value-->
+        <input type="radio" name="u" id="as">
+        <button>submit</button>
+    </form>
+
+    <form action="www.sadfgh.com">
+        <label for="selection_op">pet type</label>
+        <select name="pets" id="selection_op">          <!--link to label and drop down-->
+            <option value="dog">dog</option>
+            <option value="cat">cat</option>
+            <option value="rat">rat</option>
+            <option value="pat">parrot</option>         <!--value goes in search-->
+            <option value="bat">batton bat</option>
+        </select>
+        <input type="submit" name="click to submit">
+    </form>
+
+    <form action="www.xyz.com">
+        <input type="range" name="volume" id="volume" min="0" max="100" step="10">      <!-- done by number too min and max and step-->
+        <label for="volume">volume</label>
+        <input type="submit" name="submit">
+    </form>
+
+    <form action="www.google.com">
+        <input type="text" name="u" required>        <!-- required or mandatory field-->
+        <button>submit</button>
+    </form>
+    <form action="www.google.com">
+        <input type="text" name="u" minlength="5" maxlength="15">        <!-- min max category-->
+        <button>submit</button>
+    </form>
+    <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="type here"></textarea> <!-- if we write between text it prints out-->
+
+    <!-- pattern based type for required field as it doesnt take oher than pattern like email @ should be there in between-->
+</body>
+</html>
